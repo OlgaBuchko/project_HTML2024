@@ -1,0 +1,213 @@
+@media screen and (max-width: 320px){
+    body{
+        width: 100vw;
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    header{
+        margin:  0 ;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    header ul{
+        display: none;
+    }
+    header>div{
+        margin: 30px 120px 0 0;
+
+    }
+    .container>div{
+        height: 100%;
+    }
+
+    .header_section>div{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .text_header{
+        width: 100%;
+        margin: 60px 0 0 0;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+
+    }
+    .text_header h2{
+        font-size: 25px;
+    }
+    .text_header p{
+        margin: 0 10px;
+    }
+    .top img{
+        width: 260px;
+        height: 271.774px;
+        margin: 100px 10px 0 50px;
+    }
+    .about>div{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+        height: 100%;
+        gap: 42px;
+    }
+
+    .text_about h2{
+        font-size: 25px;
+    }
+    .text_about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+    }
+    .about img{
+        width: 260px;
+        height: 353.6px;
+        margin-bottom: 42px;
+    }
+    .text_about h2{
+        margin: 42px 0 25px 0;
+        text-align: center;
+    }
+    .text_about p{
+        margin: 0 25px 0 25px;
+    }
+    .text_about>p:nth-child(2){
+        margin: 0 25px 22px 25px;
+    }
+    main{
+        width: 100%;
+    }
+    .main_cards>div:last-child{
+        display: none;
+    }
+    .main_cards>div:nth-child(2){
+        display: none;
+
+    }
+    main>h2{
+        font-size: 25px;
+        margin: 42px 10px;
+    }
+    .main_cards{
+        margin: 0 ;
+    }
+    .card{
+        gap: 30px;
+        padding: 0;
+    }
+   main>button{
+       margin: 72px 0 84px 0;
+   }
+   nav{
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       gap: 0;
+   }
+   nav h2{
+       font-size: 25px;
+       margin: 42px 50px;
+       width: 220px;
+   }
+   .nav_cards{
+       display: grid;
+       grid-template-rows: repeat(5, 2fr);
+       grid-template-columns: repeat(2,1fr);
+       height: 100%;
+       width: 100%;
+       margin: 0 10px;
+       margin-bottom: 27px;
+   }
+   .nav_cards img{
+       width: 50px;
+   height: 50px;
+       margin-bottom: 20px;
+   }
+   .nav_cards h5{
+
+   }
+   .nav_cards div{
+       height: 87px;
+       width: 130px;
+       font-size: 15px;
+       margin: 15px;
+       line-height: 110%;
+       letter-spacing: 0.9px;
+   }
+    .nav_cards>div:nth-child(6){
+        margin-left:  15px;
+    }
+    .contacts{
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+    .text_contacts{
+        width: 300px;
+        height: 100%;
+        margin: 42px 10px ;
+        gap: 20px;
+        align-items: center;
+
+    }
+.text_contacts h4{
+    font-size: 25px;
+    text-align: center;
+}
+.text_contacts p{
+    letter-spacing: 0;
+    width: 273px;
+    font-size: 15px;
+    line-height: 160%;
+}
+.text_contacts button{
+    width: 281px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+}
+.text_contacts span{
+    width: 280px;
+    text-align: justify;
+}
+.contacts img{
+    width: 260px;
+    height: 135.2px;
+    margin-bottom: 42px;
+}
+footer{
+flex-direction: column;
+    width: 100%;
+    height: 100%;
+background: url("image/footer-gradient-background2.png");
+    gap: 40px;
+    align-items: center;
+
+}
+footer h3{
+    margin-top: 30px;
+    font-size: 25px;
+    width: 270px;
+}
+footer>div{
+    margin: 0;
+    align-items: center;
+    gap:40px;
+    text-align: center;
+    height: 100%;
+}
+    footer>div:first-child{
+        margin-left: 10px
+    }
+    footer>img{
+        width: 260px;
+        height: 100%;
+    }
+}
